@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gh-pages": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/makemile/drum-sound/issues"
   },
-  "homepage": "https://github.com/makemile/drum-sound#readme"
+  "homepage": "https://github.com/makemile/drum-sound#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
