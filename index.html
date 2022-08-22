@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,59 @@
     <link rel="stylesheet" href="./src/styles/app.css">
     <title>Document</title>
 </head>
+
 <body>
+    <section class="sound-keys">
+        <div data-key="65" class="key-letter">
+            <kbd><samp>A</samp></kbd>
+            <span class="sound">clap</span>
+        </div>
+
+        <div data-key="83" class="key-letter">
+            <kbd><samp>S</samp></kbd>
+            <span class="hihat">clap</span>
+        </div>
+        <div data-key="68" class="key-letter">
+            <kbd><samp>D</samp></kbd>
+            <span class="kick">clap</span>
+        </div>
+        <div data-key="70" class="key-letter">
+            <kbd><samp>F</samp></kbd>
+            <span class="kick">openhat</span>
+        </div>
+        <div data-key="71" class="key-letter">
+            <kbd><samp>G</samp></kbd>
+            <span class="kick">boom</span>
+        </div>
+        <div data-key="72" class="key-letter">
+            <kbd><samp>H</samp></kbd>
+            <span class="kick">ride</span>
+        </div>
+        <div data-key="74" class="key-letter">
+            <kbd><samp>J</samp></kbd>
+            <span class="kick">snare</span>
+        </div>
+        <div data-key="75" class="key-letter">
+            <kbd><samp>K</samp></kbd>
+            <span class="kick">tom</span>
+        </div>
+        <div data-key="76" class="key-letter">
+            <kbd><samp>L</samp></kbd>
+            <span class="kick">tink</span>
+        </div>
+    </section>
+
+    <audio data-key="65" src="./src/sound/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+    <audio  data-key="83" src="./src/sound/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio  data-key="68" src="./src/sound/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio data-key="70" src="./src/sound/01 - JavaScript Drum Kit_sounds_openhat.wav"></audio>
+    <audio data-key="71" src="./src/sound/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio data-key="72" src="./src/sound/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio data-key="74" src="./src/sound/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio data-key="75" src="./src/sound/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+    <audio data-key="76" src="./src/sound/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+
     <script src="./src/main.js"></script>
 </body>
+
 </html>
