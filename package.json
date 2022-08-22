@@ -2,7 +2,7 @@
   "name": "drum-sound",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "gh-pages": "gh-pages -d src"
   },
