@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 
-.key-letter {
+.key {
     display: flex;
     flex-direction: column;
     justify-content: center;
